@@ -1,4 +1,4 @@
-import './App.css';
+import './index.Scss';
 import MainContainer from './containers/MainContainer'
 
 const App = () => {
