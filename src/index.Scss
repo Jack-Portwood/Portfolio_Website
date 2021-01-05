@@ -1,9 +1,49 @@
-.main-container {
-        border-radius: 1px red solid;
+$mainWhite: #ffffea;
+$mainTeal: #00cecb;
+$mainYellow: #ffed66;
 
-
+body {
+  background: $mainWhite;
+  font-family: "MuseoModerno", cursive;
 }
 
-.home-container {
-    border-radius: 1px blue solid;
+.navbar {
+  display: flex;
+  align-items: center;
+//   border: 1px red solid;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+//   border: 1px blue solid;
+  width: 100vw;
+}
+
+.nav-link {
+  color: $mainTeal;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 2.4rem;
+  transition: all 0.3s linear;
+  &:hover {
+    color: $mainYellow;
+  }
+}
+.active {
+  color: $mainYellow;
+}
+
+.footer-container {
+  padding: 3rem;
+//   border: 1px blue solid;
+  background: $mainTeal;
+  color: $mainWhite;
+  
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
 }

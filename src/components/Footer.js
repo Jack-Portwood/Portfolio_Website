@@ -4,9 +4,11 @@ const Footer = () => {
 
     //This will preasent Logo and socail media links
 
-    return(
-        <h4>Hello from Footer</h4>
-    )
+    return (
+      <div className="footer-container">
+        <p>Hello from Footer</p>
+      </div>
+    );
 }
 
 export default Footer 

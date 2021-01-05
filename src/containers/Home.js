@@ -3,9 +3,9 @@ import React from 'react';
 const Home = () => {
 
     return (
-        <div className = "home-container"> 
+        <div > 
 
-        <h1>Hello from Home</h1>
+        <h1 className = "home-container">Hello from Home</h1>
         </div>
     )
 }
