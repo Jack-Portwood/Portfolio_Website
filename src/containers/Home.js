@@ -1,11 +1,12 @@
 import React from 'react';
+import Logo from '../Logo.png'
 
 const Home = () => {
 
     return (
-        <div > 
+        <div className="home-container" >
+            <img src={Logo} className="logo" alt="Jack Portwood Logo"/> 
 
-        <h1 className = "home-container">Hello from Home</h1>
         </div>
     )
 }

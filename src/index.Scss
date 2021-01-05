@@ -10,14 +10,14 @@ body {
 .navbar {
   display: flex;
   align-items: center;
-//   border: 1px red solid;
+  //   border: 1px red solid;
 }
 
 .nav-links {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
-//   border: 1px blue solid;
+  //   border: 1px blue solid;
   width: 100vw;
 }
 
@@ -35,15 +35,41 @@ body {
   color: $mainYellow;
 }
 
+.home-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+  //   border: blue 1px solid;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 30vw;
+  height: 60vh;
+  // border: springgreen 1px solid;
+}
+
 .footer-container {
+  display: flex;
+  justify-content: center;
   padding: 3rem;
-//   border: 1px blue solid;
+  //   border: 1px blue solid;
   background: $mainTeal;
   color: $mainWhite;
-  
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   text-align: center;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.logoB {
+  display: flex;
+  align-items: center;
+  width: 15vw;
+  height: 30vh;
+
 }
