@@ -1,27 +1,35 @@
 //rem is size relative to html root
-//em is relative size to direct or nearst neightbour 
-
+//em is relative size to direct or nearst neightbour
 
 $mainWhite: #ffffea;
 $mainTeal: #00cecb;
 $mainYellow: #ffed66;
 
+html,
 body {
   background: $mainWhite;
   font-family: "MuseoModerno", cursive;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  border: 1px red solid;
+  //   border: 1px red solid;
 }
 
 .nav-links {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
-  border: 1px blue solid;
+  //   border: 1px blue solid;
   width: 100%;
 }
 
@@ -44,7 +52,7 @@ body {
   justify-content: center;
   width: 100%;
   height: 20em;
-  border: blue 1px solid;
+  //   border: blue 1px solid;
 }
 
 .logo {
@@ -52,26 +60,54 @@ body {
   align-items: center;
   width: 20em;
   height: 20em;
-  border: springgreen 1px solid;
+  //   border: springgreen 1px solid;
 }
 
 .portfolio-container {
-  height: 20em;
+  height: 40em;
   width: 100%;
   border: red 1px solid;
+}
+
+.project-item {
+  border: gold 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.item-left {
+  border: black 1px solid;
+  width: 10em;
+  height: 10em;
+}
+
+.item-centre {
+  border: orange 1px solid;
+  width: 10em;
+  width: 10em;
+}
+
+.item-right {
+  border: purple 1px solid;
+  width: 10em;
+  width: 10em;
 }
 
 .footer-container {
   display: flex;
   justify-content: center;
   padding: 3rem;
-  border: 1px blue solid;
-  background: $mainTeal;
-  color: $mainWhite;
+    border: 1px blue solid;
+    background: $mainTeal;
+    color: $mainWhite;
 
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  //   position: fixed;
+  //   left: 0;
+  //   bottom: 0;
+  flex-shrink: 0;
+
   width: 100%;
   text-align: center;
   height: 10rem;
@@ -82,5 +118,5 @@ body {
   align-items: center;
   width: 15em;
   height: 15em;
-  border: 1px blue solid;
+  //   border: 1px blue solid;
 }
