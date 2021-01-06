@@ -11,19 +11,15 @@ const MainContainer = () => {
 
   return (
     <div className="main-container">
-      <Router>
-        <Fragment>
-          <NavBar />
-          <div className="content">
-            <Home />
-            <Portfolio />
-          </div>
-          <Switch>
-            <Route path="/about" component={AboutMe} />
-          </Switch>
-          <Footer />
-        </Fragment>
-      </Router>
+      <Fragment>
+        <NavBar />
+        <div className="content">
+          <Home />
+          <AboutMe />
+          <Portfolio />
+        </div>
+        <Footer />
+      </Fragment>
     </div>
   );
 };
