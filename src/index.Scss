@@ -98,19 +98,15 @@ body {
 .footer-container {
   display: flex;
   justify-content: center;
-  padding: 3rem;
-    border: 1px blue solid;
-    background: $mainTeal;
-    color: $mainWhite;
 
-  //   position: fixed;
-  //   left: 0;
-  //   bottom: 0;
+  padding: 3rem;
+  border: 1px blue solid;
+  background: $mainTeal;
+  color: $mainWhite;
+
   flex-shrink: 0;
 
-  width: 100%;
   text-align: center;
-  height: 10rem;
 }
 
 .logoB {
