@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import {BrowserRouter as Router, Route,Switch} from 'react-router-dom';
-import NavBar from '../components/NavBar';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import NavBar from "../components/NavBar";
 import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
@@ -14,12 +14,12 @@ const MainContainer = () => {
       <Router>
         <Fragment>
           <NavBar />
-          <Switch className="content">
-            <Route exact path="/" component={Home} />
+          <Home />
+          <Portfolio />
+          <Switch>
             <Route path="/about" component={AboutMe} />
-            <Route path="/portfolio" component={Portfolio} />
           </Switch>
-          <Footer/>
+          <Footer />
         </Fragment>
       </Router>
     </div>

@@ -6,9 +6,9 @@ const NavBar = () => {
     <nav className="navbar">
       <ul className="nav-links">
         <li>
-          <Link to="/" className="nav-link">
+          <a href="/" className="nav-link">
             Home
-          </Link>
+          </a>
         </li>
         <li>
           <Link to="/about" className="nav-link">
@@ -16,9 +16,9 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/portfolio" className="nav-link">
+          <a hrefto="/portfolio" className="nav-link">
           Projects
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>

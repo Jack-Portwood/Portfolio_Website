@@ -1,3 +1,7 @@
+//rem is size relative to html root
+//em is relative size to direct or nearst neightbour 
+
+
 $mainWhite: #ffffea;
 $mainTeal: #00cecb;
 $mainYellow: #ffed66;
@@ -10,15 +14,15 @@ body {
 .navbar {
   display: flex;
   align-items: center;
-  //   border: 1px red solid;
+  border: 1px red solid;
 }
 
 .nav-links {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
-  //   border: 1px blue solid;
-  width: 100vw;
+  border: 1px blue solid;
+  width: 100%;
 }
 
 .nav-link {
@@ -38,24 +42,30 @@ body {
 .home-container {
   display: flex;
   justify-content: center;
-  width: 100vw;
-  height: 50vh;
-  //   border: blue 1px solid;
+  width: 100%;
+  height: 20em;
+  border: blue 1px solid;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  width: 30vw;
-  height: 60vh;
-  // border: springgreen 1px solid;
+  width: 20em;
+  height: 20em;
+  border: springgreen 1px solid;
+}
+
+.portfolio-container {
+  height: 20em;
+  width: 100%;
+  border: red 1px solid;
 }
 
 .footer-container {
   display: flex;
   justify-content: center;
   padding: 3rem;
-  //   border: 1px blue solid;
+  border: 1px blue solid;
   background: $mainTeal;
   color: $mainWhite;
 
@@ -64,12 +74,13 @@ body {
   bottom: 0;
   width: 100%;
   text-align: center;
+  height: 10rem;
 }
 
 .logoB {
   display: flex;
   align-items: center;
-  width: 15vw;
-  height: 30vh;
-
+  width: 15em;
+  height: 15em;
+  border: 1px blue solid;
 }
