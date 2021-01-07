@@ -14,8 +14,8 @@ html,
 body {
   background: $mainWhite;
   font-family: "MuseoModerno", cursive;
-  height: 100%;
-  width: 100%;
+//   height: 100%;
+//   width: 100%;
   font-size: 100%;
 
   display: flex;
@@ -73,7 +73,6 @@ body {
 
 .parallax-container {
   display: flex;
-
   height: 30em;
   margin-top: 15em;
 }
@@ -84,8 +83,7 @@ body {
   justify-content: center;
   height: 30em;
   width: 100vw;
-    perspective: 250px;
-
+  perspective: 250px;
 
   //   border: brown 1px solid;
 }
@@ -161,57 +159,60 @@ body {
 .portfolio-container {
   height: 100%;
   width: 100%;
-  margin-top: 10rem;
-  border: red 1px solid;
+//   border: red 1px solid;
 }
 
 .protfolio-parallax {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   height: 100%;
   width: 100%;
-  display: flex;
   margin-bottom: 12em;
   margin-top: 12em;
-//   background: $mainTeal;
-  border: gold 1px solid;
+  //   border: gold 1px solid;
 }
 
 .projects-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 104em;
-  height: 20em;
-  border: green 1px solid;
+  width: 60em;
+  height: 12em;
+  border: green 2px solid;
   background-color: $mainWhite;
   margin: 12em;
+
+
 }
 
 .item-left {
-  width: 20em;
-  height: 20em;
-  color: $mainWhite;
-//   border: black 1px solid;
+  width: 10em;
+  height: 10em;
+  color: $mainGrey;
+  font-size:  1em;
+    border: black 1px solid;
 }
 
 .item-centre {
-  width: 20em;
-  height: 20em;
-//   border: orange 1px solid;
+  width: 10em;
+  height: 10em;
+    border: orange 1px solid;
 }
 
 .item-right {
-  width: 20em;
-  height: 20em;
+  width: 10em;
+  height: 10em;
   border-radius: 50%;
   text-align: center;
   box-shadow: 4px 8px 40px $mainGrey;
 
-//   border: purple 1px solid;
+  //   border: purple 1px solid;
 }
 
 .project-img {
-  width: 20em;
-  height: 20em;
+  width: 10em;
+  height: 10em;
   border-radius: 50%;
   text-align: center;
   border: $mainWhite 2px solid;
