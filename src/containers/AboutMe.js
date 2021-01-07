@@ -19,7 +19,7 @@ const AboutMe = () => {
           </div>
 
           <div className="card-back">
-            <div className="text-back-card"> Dev. Drugz. Drink</div>
+            <div className="text-back-card"> Dev. Drugz. Drink. </div>
           </div>
         </div>
       </div>
