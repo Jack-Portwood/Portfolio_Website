@@ -76,8 +76,6 @@ body {
 
   height: 30em;
   margin-top: 15em;
-    perspective: 225px;
-
 }
 
 .aboutMe-container {
@@ -86,6 +84,8 @@ body {
   justify-content: center;
   height: 30em;
   width: 100vw;
+    perspective: 250px;
+
 
   //   border: brown 1px solid;
 }
@@ -95,13 +95,12 @@ body {
   width: 20em;
   height: 10em;
   transform-style: preserve-3d;
-  transition: transform 1s ease-in-out ;
+  transition: transform 1s ease-in-out;
 
   //   border: brown 1px solid;
 }
 .card:hover {
   transform: rotateX(180deg);
-
 }
 .card-front {
   display: flex;
@@ -115,14 +114,11 @@ body {
 
   background: $mainTeal;
 
-
   color: $mainYellow;
   border-radius: 25px;
   box-shadow: 1px 2px 10px $mainGrey;
   font-size: 1.5rem;
   font-weight: bold;
-    
-
 
   .text-front-card {
     display: flex;
@@ -140,7 +136,6 @@ body {
   height: 100%;
   backface-visibility: hidden;
   transform-style: preserve-3d;
-
 
   background: $mainWhite;
   color: $mainTeal;
