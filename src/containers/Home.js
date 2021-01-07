@@ -1,11 +1,11 @@
 import React from 'react';
-import Logo from '../Logo.png'
+import LogoB from '../LogoB.png'
 
 const Home = () => {
 
     return (
         <div className="home-container" >
-            <img src={Logo} className="logo" alt="Jack Portwood Logo"/> 
+            <img src={LogoB} className="logo" alt="Jack Portwood Logo"/> 
 
         </div>
     )
