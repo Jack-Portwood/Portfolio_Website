@@ -165,12 +165,13 @@ body {
   border: red 1px solid;
 }
 
-.parallax {
+.protfolio-parallax {
   height: 100%;
   width: 100%;
   display: flex;
   margin-bottom: 12em;
-  background: $mainTeal;
+  margin-top: 12em;
+//   background: $mainTeal;
   border: gold 1px solid;
 }
 
@@ -178,23 +179,24 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   width: 104em;
   height: 20em;
   border: green 1px solid;
+  background-color: $mainWhite;
+  margin: 12em;
 }
 
 .item-left {
   width: 20em;
   height: 20em;
   color: $mainWhite;
-  border: black 1px solid;
+//   border: black 1px solid;
 }
 
 .item-centre {
   width: 20em;
   height: 20em;
-  border: orange 1px solid;
+//   border: orange 1px solid;
 }
 
 .item-right {
@@ -204,7 +206,7 @@ body {
   text-align: center;
   box-shadow: 4px 8px 40px $mainGrey;
 
-  border: purple 1px solid;
+//   border: purple 1px solid;
 }
 
 .project-img {

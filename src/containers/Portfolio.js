@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import projectData from '../projectData'
 import Projects from "../components/Projects";
+import { Parallax } from "react-parallax";
+import banner2 from '../banner2.jpg'
 // import banner from '../banner.jpg'
 
 const Portfolio = () => {
@@ -15,9 +17,14 @@ const Portfolio = () => {
   });
 
   return (
-      <div className="portfolio-container">
-        {data}
-      </div>
+    <Parallax
+      className="protfolio-parallax"
+      bgImage={banner2}
+      strength={500}
+      blur={{ min: -1, max: 1 }}
+    >
+      <div className="portfolio-container">{data}</div>
+    </Parallax>
   );
 };
 
