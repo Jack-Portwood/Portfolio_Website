@@ -15,7 +15,7 @@ body {
   background: $mainWhite;
   font-family: "MuseoModerno", cursive;
   height: 100%;
-//   width: 100%;
+  //   width: 100%;
   font-size: 100%;
 
   //   display: flex; //might not be needed
@@ -23,9 +23,8 @@ body {
 }
 //Wraps everthing above footer and below navbar
 .content {
-    
   flex: 1 0 auto;
-//   border:  1px solid;
+  //   border:  1px solid;
 }
 
 .navbar {
@@ -34,7 +33,7 @@ body {
   position: fixed;
   z-index: 2;
   height: 5em;
-//   border: 1px red solid;
+  //   border: 1px red solid;
   background: $mainWhite;
 }
 
@@ -44,7 +43,7 @@ body {
   justify-content: space-evenly;
   width: 100vw;
   text-decoration: underline;
-//   border: 1px blue solid;
+  //   border: 1px blue solid;
 }
 
 .nav-link {
@@ -66,8 +65,7 @@ body {
   justify-content: center;
   height: 59em;
   background: $mainTeal;
-//   margin-top: 12em;
-//   border: blue 1px solid;
+  //   border: blue 1px solid;
 
   .logo {
     display: flex;
@@ -81,15 +79,16 @@ body {
 
 .parallax-container {
   display: flex;
-  height: 50em;
-  margin-top: 37em;
+  height: 59em;
+  margin-top: 15em;
+  border: red 1px solid;
 }
 
 .aboutMe-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50em;
+  height: 59em;
   width: 100vw;
   perspective: 250px;
   // border: brown 1px solid;
@@ -122,7 +121,6 @@ body {
   color: $mainYellow;
   border-radius: 25px;
   box-shadow: 1px 2px 10px $mainGrey;
-  font-size: 1.5rem;
   font-weight: bold;
 
   .text-front-card {
@@ -130,6 +128,8 @@ body {
     justify-content: center;
     align-items: center;
     width: 20em;
+    font-size: 1.5rem;
+
     //   border: red 1px solid;
   }
 }
@@ -148,7 +148,6 @@ body {
   transform: rotateX(180deg);
 
   box-shadow: 1px 2px 10px $mainGrey;
-  font-size: 1.2rem;
 
   .text-back-card {
     display: flex;
@@ -259,17 +258,39 @@ body {
 //////////////////
 
 @media screen and (max-width: 768px) {
-  .home-container {
-    .logo {
-      height: 15em;
-      width: 15em;
-    }
-  }
   .nav-bar {
     height: 1em;
   }
   .nav-link {
     font-size: 1em;
+  }
+
+  .home-container {
+    height: 43em;
+    .logo {
+      height: 15em;
+      width: 15em;
+    }
+  }
+
+  .parallax-container {
+    margin-top: 3em;
+    height: 43em;
+  }
+  .card {
+    width: 16em;
+    height: 8em;
+    //     border: brown 1px solid;
+  }
+  .card-front {
+    .text-front-card {
+      font-size: 1.2rem;
+    }
+  }
+  .card-back {
+    .text-back-card {
+      font-size: 1rem;
+    }
   }
 }
 
