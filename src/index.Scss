@@ -15,16 +15,17 @@ body {
   background: $mainWhite;
   font-family: "MuseoModerno", cursive;
   height: 100%;
-  //   width: 100%;
+//   width: 100%;
   font-size: 100%;
 
-  display: flex; //might not be needed
-  flex-direction: column;
+  //   display: flex; //might not be needed
+  //   flex-direction: column; //might not be needed
 }
 //Wraps everthing above footer and below navbar
 .content {
+    
   flex: 1 0 auto;
-  border: $mainWhite 1px solid;
+//   border:  1px solid;
 }
 
 .navbar {
@@ -33,7 +34,7 @@ body {
   position: fixed;
   z-index: 2;
   height: 5em;
-  //   border: 1px red solid;
+//   border: 1px red solid;
   background: $mainWhite;
 }
 
@@ -43,7 +44,7 @@ body {
   justify-content: space-evenly;
   width: 100vw;
   text-decoration: underline;
-  //   border: 1px blue solid;
+//   border: 1px blue solid;
 }
 
 .nav-link {
@@ -63,17 +64,19 @@ body {
 .home-container {
   display: flex;
   justify-content: center;
-  height: 50em;
+  height: 59em;
   background: $mainTeal;
-  //   border: blue 1px solid;
-}
+//   margin-top: 12em;
+//   border: blue 1px solid;
 
-.logo {
-  display: flex;
-  align-items: center;
-  width: 45em;
-  height: 45em;
-  //   border: springgreen 1px solid;
+  .logo {
+    display: flex;
+    align-items: center;
+    padding-top: 15em;
+    width: 40em;
+    height: 40em;
+    // border: springgreen 1px solid;
+  }
 }
 
 .parallax-container {
@@ -89,9 +92,7 @@ body {
   height: 50em;
   width: 100vw;
   perspective: 250px;
-
-
-    border: brown 1px solid;
+  // border: brown 1px solid;
 }
 
 .card {
@@ -164,13 +165,11 @@ body {
 
 //////
 .portfolio-container {
-    // display: flex;
-    // justify-content: space-around;
-    // align-items: center;
+  // display: flex;
+  // justify-content: space-around;
+  // align-items: center;
   height: 100%;
-  width: 100%;
-
-  //   border: red 1px solid;
+  // border-top: $mainWhite 0.1px solid;
 }
 
 .protfolio-parallax {
@@ -181,7 +180,7 @@ body {
   width: 100%;
   margin-bottom: 12em;
   margin-top: 30em;
-  //   border: gold 1px solid;
+  // border: gold 1px solid;
 }
 
 .projects-wrapper {
@@ -192,14 +191,14 @@ body {
   height: 12em;
   background-color: $mainWhite;
   margin: 12em;
-  //   border: green 2px solid;
+  border: green 2px solid;
 }
 
 .item-left {
   width: 10em;
   height: 10em;
   color: $mainGrey;
-  //   border: black 1px solid;
+  border: black 1px solid;
 
   .project-title {
     font-weight: bold;
@@ -215,7 +214,7 @@ body {
 .item-centre {
   width: 10em;
   height: 10em;
-  //   border: orange 1px solid;
+  border: orange 1px solid;
 }
 
 .item-right {
@@ -256,3 +255,33 @@ body {
   height: 15em;
   border: 1px blue solid;
 }
+
+//////////////////
+
+@media screen and (max-width: 768px) {
+  .home-container {
+    .logo {
+      height: 15em;
+      width: 15em;
+    }
+  }
+  .nav-bar {
+    height: 1em;
+  }
+  .nav-link {
+    font-size: 1em;
+  }
+}
+
+// @media screen and (min-width:992px){
+//     .tourlist{
+//         width: 85vw;
+//         grid-template-columns: 1fr 1fr 1fr;
+//     }
+// }
+
+// @media screen and (min-width:1140px){
+//     .tourlist{
+//         grid-template-columns: repeat(4 ,1fr);
+//     }
+// }
