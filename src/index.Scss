@@ -14,7 +14,7 @@ html,
 body {
   background: $mainWhite;
   font-family: "MuseoModerno", cursive;
-//   height: 100%;
+  height: 100%;
 //   width: 100%;
   font-size: 100%;
 
@@ -159,7 +159,7 @@ body {
 .portfolio-container {
   height: 100%;
   width: 100%;
-//   border: red 1px solid;
+  //   border: red 1px solid;
 }
 
 .protfolio-parallax {
@@ -179,25 +179,33 @@ body {
   align-items: center;
   width: 60em;
   height: 12em;
-  border: green 2px solid;
   background-color: $mainWhite;
   margin: 12em;
-
-
+//   border: green 2px solid;
 }
 
 .item-left {
   width: 10em;
   height: 10em;
   color: $mainGrey;
-  font-size:  1em;
-    border: black 1px solid;
+//   border: black 1px solid;
+
+
+  .project-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    // border: red 1px solid;
+  }
+  .project-descrption{
+      font-size: 0.85em;
+    // border: blue 1px solid;
+  }
 }
 
 .item-centre {
   width: 10em;
   height: 10em;
-    border: orange 1px solid;
+  border: orange 1px solid;
 }
 
 .item-right {
