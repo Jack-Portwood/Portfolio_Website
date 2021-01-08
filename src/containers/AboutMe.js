@@ -9,8 +9,8 @@ const AboutMe = () => {
     <Parallax
       className="parallax-container"
       bgImage={banner}
-      strength={500}
-      blur={{ min: -1, max: 1 }}
+      strength={250}
+      blur={{ min: -100, max: 90 }}
     >
       <div className="aboutMe-container" id="aboutMe-container">
         <div className="card" >
