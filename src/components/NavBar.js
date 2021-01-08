@@ -1,27 +1,35 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React,{Component} from "react";
+import { HashLink } from "react-router-hash-link";
 
-const NavBar = () => {
+class NavBar extends Component {
+  state = {
+    isOpen: false
+  }
+  handleToggle = () =>{
+    this.setState({ isOpen: !this.state.isOpen})
+  }
+  render(){
   return (
     <nav className="navbar">
-      <ul className="nav-links">
+      <ul className={this.state.isOpen ? "show-nav" : "nav-links"}>
         <li>
-          <a href="/" className="nav-link">
+          <HashLink smooth to="#home-container" className="nav-link">
             Home
-          </a>
+          </HashLink>
         </li>
         <li>
-          <a href="/about" className="nav-link">
-          About
-          </a>
+          <HashLink smooth to="#aboutMe-container" className="nav-link">
+            About
+          </HashLink>
         </li>
         <li>
-          <a hrefto="/portfolio" className="nav-link">
-          Projects
-          </a>
+          <HashLink smooth to="#portfolio-container" className="nav-link">
+            Projects
+          </HashLink>
         </li>
       </ul>
     </nav>
   );
 };
+}
 export default NavBar;

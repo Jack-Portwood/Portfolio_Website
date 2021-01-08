@@ -6,6 +6,7 @@ const Footer = () => {
 
     return (
       <div className="footer-container">
+        
         <img src={LogoB} className="logoB" alt="Jack Portwood Logo" />
       </div>
     );

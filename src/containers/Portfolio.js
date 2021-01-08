@@ -23,7 +23,9 @@ const Portfolio = () => {
       strength={500}
       blur={{ min: -1, max: 1 }}
     >
-      <div className="portfolio-container">{data}</div>
+      <div className="portfolio-container" id={"portfolio-container"}>
+        {data}
+      </div>
     </Parallax>
   );
 };

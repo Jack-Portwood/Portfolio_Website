@@ -15,7 +15,7 @@ body {
   background: $mainWhite;
   font-family: "MuseoModerno", cursive;
   height: 100%;
-//   width: 100%;
+  //   width: 100%;
   font-size: 100%;
 
   display: flex;
@@ -29,8 +29,8 @@ body {
 .navbar {
   display: flex;
   align-items: center;
+  height: 10em;
 
-  //   border: 1px red solid;
 }
 
 .nav-links {
@@ -38,6 +38,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   width: 100vw;
+  text-decoration: underline;
   //   border: 1px blue solid;
 }
 
@@ -58,23 +59,24 @@ body {
 .home-container {
   display: flex;
   justify-content: center;
-  height: 17em;
+  height: 35.3em;
   background: $mainTeal;
+  margin-top: 12em;
   //   border: blue 1px solid;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  width: 17em;
-  height: 17em;
+  width: 25em;
+  height: 25em;
   //   border: springgreen 1px solid;
 }
 
 .parallax-container {
   display: flex;
   height: 30em;
-  margin-top: 15em;
+  margin-top: 37em;
 }
 
 .aboutMe-container {
@@ -84,6 +86,7 @@ body {
   height: 30em;
   width: 100vw;
   perspective: 250px;
+
 
   //   border: brown 1px solid;
 }
@@ -148,8 +151,9 @@ body {
     justify-content: center;
     align-items: center;
     width: 20em;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: bold;
+    text-align: center;
 
     // border: red 1px solid;
   }
@@ -157,9 +161,13 @@ body {
 
 //////
 .portfolio-container {
+  //   display: flex;
+  //   justify-content: space-around;
+  //   align-items: center;
   height: 100%;
   width: 100%;
-  //   border: red 1px solid;
+
+  border: red 1px solid;
 }
 
 .protfolio-parallax {
@@ -170,7 +178,7 @@ body {
   width: 100%;
   margin-bottom: 12em;
   margin-top: 12em;
-  //   border: gold 1px solid;
+  border: gold 1px solid;
 }
 
 .projects-wrapper {
@@ -181,23 +189,22 @@ body {
   height: 12em;
   background-color: $mainWhite;
   margin: 12em;
-//   border: green 2px solid;
+  border: green 2px solid;
 }
 
 .item-left {
   width: 10em;
   height: 10em;
   color: $mainGrey;
-//   border: black 1px solid;
-
+  //   border: black 1px solid;
 
   .project-title {
     font-weight: bold;
     font-size: 1.2em;
     // border: red 1px solid;
   }
-  .project-descrption{
-      font-size: 0.85em;
+  .project-descrption {
+    font-size: 0.85em;
     // border: blue 1px solid;
   }
 }
