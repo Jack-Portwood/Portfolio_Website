@@ -11,8 +11,8 @@ const MainContainer = () => {
   return (
     <div className="main-container">
       <Fragment>
-        <NavBar />
         <div className="content">
+          <NavBar />
           <Home />
           <AboutMe />
           <Portfolio />
