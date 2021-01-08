@@ -91,17 +91,18 @@ body {
   height: 59em;
   width: 100vw;
   perspective: 250px;
-  // border: brown 1px solid;
+//   border: brown 1px solid;
 }
 
 .card {
+    display: flex;
   position: absolute;
   width: 20em;
   height: 10em;
   transform-style: preserve-3d;
   transition: transform 1s ease-in-out;
 
-  //   border: brown 1px solid;
+    // border: brown 1px solid;
 }
 .card:hover {
   transform: rotateX(180deg);
@@ -162,7 +163,7 @@ body {
   }
 }
 
-//////
+////// Happy with CSS above need to do final check
 .portfolio-container {
   // display: flex;
   // justify-content: space-around;
@@ -280,6 +281,7 @@ body {
   .card {
     width: 16em;
     height: 8em;
+    margin-bottom: 15em
     //     border: brown 1px solid;
   }
   .card-front {
