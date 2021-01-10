@@ -81,7 +81,7 @@ body {
   display: flex;
   height: 59em;
   margin-top: 15em;
-//   border: red 1px solid;
+  //   border: red 1px solid;
 }
 
 .aboutMe-container {
@@ -91,18 +91,18 @@ body {
   height: 59em;
   width: 100vw;
   perspective: 250px;
-//   border: brown 1px solid;
+  //   border: brown 1px solid;
 }
 
 .card {
-    display: flex;
+  display: flex;
   position: absolute;
   width: 20em;
   height: 10em;
   transform-style: preserve-3d;
   transition: transform 1s ease-in-out;
 
-    // border: brown 1px solid;
+  // border: brown 1px solid;
 }
 .card:hover {
   transform: rotateX(180deg);
@@ -129,7 +129,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 20em;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 
     //   border: red 1px solid;
   }
@@ -155,22 +155,16 @@ body {
     justify-content: center;
     align-items: center;
     width: 20em;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     font-weight: bold;
     text-align: center;
 
     // border: red 1px solid;
   }
 }
-
-////// Happy with CSS above need to do final check
-.portfolio-container {
-  // display: flex;
-  // justify-content: space-around;
-  // align-items: center;
-  height: 100%;
-  // border-top: $mainWhite 0.1px solid;
-}
+///////////////////////////////////////////////////////
+////// Happy with CSS above need to do final check/////
+///////////////////////////////////////////////////////
 
 .protfolio-parallax {
   display: flex;
@@ -178,27 +172,37 @@ body {
   align-items: center;
   height: 100%;
   width: 100%;
+  margin-top: 15em;
   margin-bottom: 12em;
-  margin-top: 30em;
-  // border: gold 1px solid;
+
+  border: gold 1px solid;
+}
+
+.portfolio-container {
+  //   display: flex;
+  //   justify-content: space-around;
+  //   align-items: center;
+  height: 100%;
+  border: red 0.1px solid;
 }
 
 .projects-wrapper {
   display: flex;
   justify-content: space-around;
+
   align-items: center;
-  width: 60em;
-  height: 12em;
+  width: 60em; //60
+  height: 12em; //12
   background-color: $mainWhite;
   margin: 12em;
-  border: green 2px solid;
+//   border: green 2px solid;
 }
 
 .item-left {
   width: 10em;
   height: 10em;
   color: $mainGrey;
-  border: black 1px solid;
+//   border: black 1px solid;
 
   .project-title {
     font-weight: bold;
@@ -281,18 +285,24 @@ body {
   .card {
     width: 16em;
     height: 8em;
-    margin-bottom: 15em
+    margin-bottom: 15em;
     //     border: brown 1px solid;
   }
   .card-front {
     .text-front-card {
-      font-size: 1.2rem;
+      font-size: 1.2em;
     }
   }
   .card-back {
     .text-back-card {
-      font-size: 1rem;
+      font-size: 1em;
     }
+  }
+
+  .projects-wrapper {
+    flex-direction: column;
+    width: 12em;
+    height: 35em;
   }
 }
 
