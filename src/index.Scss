@@ -236,21 +236,21 @@ body {
   color: $mainWhite;
   flex-shrink: 0;
   height: 15em;
-    border: 1px blue solid;
+    // border: 1px blue solid;
 }
 
 .social-media {
-  display: inline-flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
-//   border: red 1px solid;
   height: 10em;
-  width: 35em;
+  width: 80em;
+//   border: red 1px solid;
+
 }
 
 .logoB {
   display: flex;
-  align-items: center;
   width: 14em;
   height: 14em;
   //   border: 1px blue solid;
@@ -343,6 +343,12 @@ body {
     width: 8em;
     height: 8em;
   }
+
+  .footer-container{
+      height: 7em;
+        margin-top: 3em;
+
+  } 
 
   .logoB {
     width: 10em;
