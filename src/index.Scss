@@ -81,6 +81,8 @@ body {
   display: flex;
   height: 59em;
   margin-top: 15em;
+  margin-bottom: 15em;
+
   //   border: red 1px solid;
 }
 
@@ -168,31 +170,28 @@ body {
 
 .protfolio-parallax {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  margin-top: 15em;
-  margin-bottom: 12em;
-
-  border: gold 1px solid;
+  justify-content: center;
+  height: 90em;
+  //   border: black 1px solid;
 }
 
 .portfolio-container {
-  height: 100%;
-  //   border: red 0.1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 12em;
+  height: 90em;
+  //   border: red 1px solid;
 }
 
 .projects-wrapper {
   display: flex;
   justify-content: space-around;
-
   align-items: center;
   width: 60em;
   height: 12em;
   background-color: $mainWhite;
-  margin-top: 6em;
-  margin-bottom: 6em;
+  margin: 6em;
   //   border: green 2px solid;
 }
 
@@ -248,7 +247,7 @@ body {
 
   flex-shrink: 0;
 
-//   border: 1px blue solid;
+  //   border: 1px blue solid;
 }
 
 .logoB {
@@ -256,7 +255,7 @@ body {
   align-items: center;
   width: 14em;
   height: 14em;
-  border: 1px blue solid;
+  //   border: 1px blue solid;
 }
 /////////////////////
 /////Media query/////
@@ -299,18 +298,60 @@ body {
     }
   }
 
+  .protfolio-parallax {
+    height: 100em;
+  }
+
+  .portfolio-container {
+    height: 100em;
+
+    margin-top: 10em;
+  }
+
   .projects-wrapper {
     flex-direction: column;
     width: 12em;
-    height: 35em;
+    height: 40em;
+    margin: 1em;
   }
+
+  .item-left {
+  width: 8em;
+  height: 8em;
+  color: $mainGrey;
+  border: black 1px solid;
+
+  .project-title {
+    font-size: 1em;
+    //border: red 1px solid;
+  }
+  .project-descrption {
+    font-size: 0.72em;
+    //border: blue 1px solid;
+  }
+}
+
+.item-centre {
+  width: 8em;
+  height: 8em;
+  border: orange 1px solid;
+}
+
+.item-right {
+  width: 8em;
+  height: 8em;
+  //border: purple 1px solid;
+}
+
+.project-img {
+  width: 8em;
+  height: 8em;
+}
 
   .logoB {
-    width: 8em;
-    height: 8em;
-
+    width: 10em;
+    height: 10em;
   }
-
 }
 
 // @media screen and (min-width:992px){
