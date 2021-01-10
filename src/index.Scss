@@ -83,7 +83,7 @@ body {
   margin-top: 15em;
   margin-bottom: 15em;
 
-  //   border: red 1px solid;
+    // border: red 1px solid;
 }
 
 .aboutMe-container {
@@ -179,9 +179,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 12em;
+//   margin-top: 12em;
   height: 90em;
-  //   border: red 1px solid;
+    border: red 1px solid;
 }
 
 .projects-wrapper {
@@ -280,12 +280,13 @@ body {
   .parallax-container {
     margin-top: 3em;
     height: 43em;
+    margin-bottom: 3em;
+
   }
   .card {
     width: 16em;
     height: 8em;
     margin-bottom: 15em;
-    //     border: brown 1px solid;
   }
   .card-front {
     .text-front-card {
@@ -297,56 +298,55 @@ body {
       font-size: 1em;
     }
   }
-
+  //////////////////////
   .protfolio-parallax {
-    height: 100em;
+    height: 100%;
   }
 
   .portfolio-container {
-    height: 100em;
-
+    height: 100%;
     margin-top: 10em;
   }
 
   .projects-wrapper {
     flex-direction: column;
     width: 12em;
-    height: 40em;
-    margin: 1em;
+    height: 30em;
+
   }
 
   .item-left {
-  width: 8em;
-  height: 8em;
-  color: $mainGrey;
-  border: black 1px solid;
+    width: 8em;
+    height: 8em;
+    color: $mainGrey;
+    border: black 1px solid;
 
-  .project-title {
-    font-size: 1em;
-    //border: red 1px solid;
+    .project-title {
+      font-size: 1em;
+      //border: red 1px solid;
+    }
+    .project-descrption {
+      font-size: 0.72em;
+      //border: blue 1px solid;
+    }
   }
-  .project-descrption {
-    font-size: 0.72em;
-    //border: blue 1px solid;
+
+  .item-centre {
+    width: 8em;
+    height: 8em;
+    border: orange 1px solid;
   }
-}
 
-.item-centre {
-  width: 8em;
-  height: 8em;
-  border: orange 1px solid;
-}
+  .item-right {
+    width: 8em;
+    height: 8em;
+    //border: purple 1px solid;
+  }
 
-.item-right {
-  width: 8em;
-  height: 8em;
-  //border: purple 1px solid;
-}
-
-.project-img {
-  width: 8em;
-  height: 8em;
-}
+  .project-img {
+    width: 8em;
+    height: 8em;
+  }
 
   .logoB {
     width: 10em;
