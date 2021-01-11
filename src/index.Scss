@@ -63,14 +63,14 @@ body {
 .home-container {
   display: flex;
   justify-content: center;
-  height: 59em;
+  align-items: center;
   background: $mainTeal;
-  //   border: blue 1px solid;
+  height: 61em;  
+    border: blue 1px solid;
 
   .logo {
     display: flex;
     align-items: center;
-    padding-top: 15em;
     width: 40em;
     height: 40em;
     // border: springgreen 1px solid;
@@ -79,7 +79,7 @@ body {
 
 .parallax-container {
   display: flex;
-  height: 59em;
+  height: 61em;
   margin-top: 5em;
   margin-bottom: 5em;
   // border: red 1px solid;
@@ -206,6 +206,27 @@ body {
   width: 10em;
   height: 10em;
   border: orange 1px solid;
+
+  .project-stack{
+    border: 1px solid red;
+    width: 10em;
+    height: 2em;
+  }
+
+  .project-github{
+    border: 1px solid blue;
+    width: 10em;
+    height: 2em;
+
+  }
+
+  .project-type{
+    border: 1px solid green;
+    width: 10em;
+    height: 2em; 
+    font-family: "MuseoModerno", cursive;
+    font-size: 0.85em;
+}
 }
 
 .item-right {
@@ -280,10 +301,11 @@ body {
   }
 
   .home-container {
-    height: 43em;
+    height: 52em;
     .logo {
-      height: 15em;
-      width: 15em;
+      height: 17em;
+      width: 17em;
+      margin-bottom: 5em;
     }
   }
 

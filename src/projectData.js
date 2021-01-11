@@ -20,7 +20,7 @@ export default [
     language: <i class="fab fa-js fa-2x"></i>,
     runTimEnv: <i class="fab fa-node fa-2x"></i>,
     github: <i className="fab fa-github fa-2x"></i>,
-    projectType: <i class="fas fa-male fa-2x">Indivdual Project</i>,
+    projectType: <i className="fas fa-male fa-2x">Indivdual Project</i>,
     image: "images/timer.png",
   },
   {
@@ -28,11 +28,11 @@ export default [
     title: "Request Dugs",
     description:
       "Request-Dugs was initially an excerise in refamiliarize myself with async fetch requests. ",
-    framework: <i class="fab fa-react fa-lg"></i>,
-    language: <i class="fab fa-js fa-lg"></i>,
-    runTimEnv: <i class="fab fa-node fa-lg"></i>,
-    github: <i className="fab fa-github fa-lg"></i>,
-    projectType: <i class="fas fa-male fa-lg"> Indivdual Project</i>,
+    framework: <i class="fab fa-react fa-2x"></i>,
+    language: <i class="fab fa-js fa-2x"></i>,
+    runTimEnv: <i class="fab fa-node fa-2x"></i>,
+    github: <i className="fab fa-github fa-2x"></i>,
+    projectType: <i class="fas fa-male fa-2x"> Indivdual Project</i>,
     image: "images/dugs.png",
   },
 ];

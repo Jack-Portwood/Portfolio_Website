@@ -14,9 +14,9 @@ const Projects = ({ item }) => {
           {item.framework}
           {item.language}
           {item.runTimEnv}
+          <div className="project-github">{item.github}</div>
+          <div className="project-type">{item.projectType}</div>
         </div>
-        <div className="project-github">{item.github}</div>
-        <div className="project-type">{item.projectType}</div>
       </div>
       <div className="item-right">
         <img className="project-img" alt="for project" src={item.image} />
