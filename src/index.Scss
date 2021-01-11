@@ -15,16 +15,15 @@ body {
   background: $mainWhite;
   font-family: "MuseoModerno", cursive;
   height: 100%;
-  //   width: 100%;
   font-size: 100%;
 
-  //   display: flex; //might not be needed
-  //   flex-direction: column; //might not be needed
+    // display: flex; //might not be needed
+    // flex-direction: column; //might not be needed
 }
 //Wraps everthing above footer and below navbar
 .content {
   flex: 1 0 auto;
-  //   border:  1px solid;
+    // border:  red 1px solid;
 }
 
 .navbar {
@@ -34,7 +33,7 @@ body {
   z-index: 2;
   height: 5em;
   background: $mainWhite;
-  //   border: 1px red solid;
+    // border: 1px red solid;
 }
 
 .nav-links {
@@ -43,7 +42,7 @@ body {
   justify-content: space-evenly;
   width: 100vw;
   text-decoration: underline;
-  //   border: 1px blue solid;
+  // border: 1px blue solid;
 }
 
 .nav-link {
