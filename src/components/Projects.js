@@ -18,7 +18,7 @@ const Projects = ({ item }) => {
           </div>
         </div>
         <div className="project-github-container">
-          <div className="project-github">{item.github} </div>
+          <a className="project-github">{item.github} </a>
           <div className="github-text">Source Code</div>
         </div>
         <div className="project-category-container">

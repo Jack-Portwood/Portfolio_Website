@@ -205,41 +205,38 @@ body {
 .item-centre {
   //   justify-content: center;
   //   align-items: center;
-  width: 10em;
-  height: 10em;
-  //   border: orange 1px solid;
+  width: 12em;
+  height: 10.2em;
+  // border: orange 1px solid;
 
   .project-stack {
-    width: 10em;
-    height: 4em;
+    width: 12em;
+    height: 5em;
     // border: 1px solid purple;
 
     .stack-container {
       display: flex;
       justify-content: space-between;
-      width: 10em;
-      height: 2.5em;
-      // border: green 1px solid;
+      width: 12em;
+      height: 3em;
+      //   border: green 1px solid;
     }
 
     .framework-container {
-      //   border: green 1px solid;
-      width: 2em;
-      height: 2em;
+      // border: green 1px solid;
+
       color: #61dbfb;
     }
 
     .language-container {
       //   border: red 1px solid;
-      width: 2em;
-      height: 2em;
+
       color: #f0db4f;
     }
 
     .runTimEnv-container {
       //   border: blue 1px solid;
-      width: 2.5em;
-      height: 2em;
+
       color: #68a063;
     }
 
@@ -256,7 +253,7 @@ body {
   .project-github-container {
     display: inline-flex;
     align-self: baseline;
-    width: 10em;
+    width: 12em;
     height: 2em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -267,7 +264,10 @@ body {
       width: 2em;
       height: 2em;
       color: $mainTeal;
-    //   border: 1px solid blue;
+      text-decoration: none;
+      transition: all 0.4s linear;
+
+      //   border: 1px solid blue;
 
       &:hover {
         color: $mainYellow;
@@ -280,7 +280,7 @@ body {
 
     .github-text {
       display: inline-flex;
-      width: 10em;
+      width: 12em;
       height: 2em;
       color: $mainGrey;
       font-size: 0.85em;
@@ -298,7 +298,7 @@ body {
   .project-category-container {
     display: inline-flex;
     align-self: baseline;
-    width: 10em;
+    width: 12em;
     height: 2.5em;
     // border: 1px solid red;
 
@@ -310,7 +310,7 @@ body {
       font-family: "MuseoModerno", cursive;
       color: $mainTeal;
       margin-right: 1em;
-    //   border: 1px solid green;
+      //   border: 1px solid green;
     }
 
     .projectTypeCat {
@@ -366,7 +366,7 @@ body {
 
 .social-link {
   color: $mainWhite;
-  text-decoration: none;
+  transition: all 0.4s linear;
 
   &:hover {
     color: $mainYellow;
