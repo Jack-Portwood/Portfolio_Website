@@ -4,9 +4,9 @@ export default [
     title: "Scroller",
     description:
       "Scroller was envisioned as a fun app to allow easy communication when speaking wasn't feasible.",
-    framework: <i class="fab fa-react fa-3x"></i>,
-    language: <i class="fab fa-js fa-3x"></i>,
-    runTimEnv: <i class="fab fa-node fa-3x"></i>,
+    framework: <i className="fab fa-react fa-3x"></i>,
+    language: <i className="fab fa-js fa-3x"></i>,
+    runTimEnv: <i className="fab fa-node fa-3x"></i>,
     github: (
       <a
         className="project-github"
@@ -15,19 +15,20 @@ export default [
         <i className="fab fa-github fa-2x"></i>
       </a>
     ),
-    projectType: <i class="fas fa-user-friends fa-lg"></i>,
+    projectType: <i className="fas fa-user-friends fa-lg"></i>,
     projectTypeCat: "Group Project",
 
-    image: "images/scroller.png",
+    image: "images/scroller.png"
+  
   },
   {
     id: 2,
     title: "NYE Countdown",
     description:
       "This appilcation will count down till 00:00:00 when it will render a new background image and text. ",
-    framework: <i class="fab fa-react fa-3x"></i>,
-    language: <i class="fab fa-js fa-3x"></i>,
-    runTimEnv: <i class="fab fa-node fa-3x"></i>,
+    framework: <i className="fab fa-react fa-3x"></i>,
+    language: <i className="fab fa-js fa-3x"></i>,
+    runTimEnv: <i className="fab fa-node fa-3x"></i>,
     github: (
       <a
         className="project-github"
