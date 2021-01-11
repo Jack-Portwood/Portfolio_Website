@@ -9,13 +9,19 @@ const Projects = ({ item }) => {
         <div className="project-descrption">{item.description} </div>
       </div>
       <div className="item-centre">
+        <div className="stack-title">Stack:</div>
         <div className="project-stack">
-          Stack:
           {item.framework}
           {item.language}
           {item.runTimEnv}
-          <div className="project-github">{item.github}</div>
+        </div>
+        <div className="project-github-container">
+          <div className="project-github">{item.github} </div>
+          <div className="github-text">Source Code</div>
+        </div>
+        <div className="project-category-container">
           <div className="project-type">{item.projectType}</div>
+          <div className=" projectTypeCat">{item.projectTypeCat}</div>
         </div>
       </div>
       <div className="item-right">

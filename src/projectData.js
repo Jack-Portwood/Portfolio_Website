@@ -8,7 +8,9 @@ export default [
     language: <i class="fab fa-js fa-2x"></i>,
     runTimEnv: <i class="fab fa-node fa-2x"></i>,
     github: <i className="fab fa-github fa-2x"></i>,
-    projectType: <i class="fas fa-user-friends fa-2x">Group Project</i>,
+    projectType: <i class="fas fa-user-friends fa-lg"></i>,
+    projectTypeCat: "Group Project",
+
     image: "images/scroller.png",
   },
   {
@@ -20,7 +22,8 @@ export default [
     language: <i class="fab fa-js fa-2x"></i>,
     runTimEnv: <i class="fab fa-node fa-2x"></i>,
     github: <i className="fab fa-github fa-2x"></i>,
-    projectType: <i className="fas fa-male fa-2x">Indivdual Project</i>,
+    projectType: <i className="fas fa-male fa-2x"> </i>,
+    projectTypeCat: "Indivdual Project",
     image: "images/timer.png",
   },
   {
@@ -32,7 +35,9 @@ export default [
     language: <i class="fab fa-js fa-2x"></i>,
     runTimEnv: <i class="fab fa-node fa-2x"></i>,
     github: <i className="fab fa-github fa-2x"></i>,
-    projectType: <i class="fas fa-male fa-2x"> Indivdual Project</i>,
+    projectType: <i class="fas fa-male fa-2x"></i>,
+    projectTypeCat: "Indivdual Project",
+
     image: "images/dugs.png",
   },
 ];
