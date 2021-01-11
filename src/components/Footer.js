@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="social-media">
-        <i class="fab fa-linkedin-in fa-3x" size="l"></i>
+        <i class="fab fa-linkedin-in fa-3x"></i>
         <img src={LogoB} className="logoB" alt="Jack Portwood Logo" />
 
         <i class="fab fa-github fa-3x"></i>
