@@ -248,6 +248,19 @@ body {
     // border: red 1px solid;
 }
 
+.social-link{
+    color: $mainWhite;
+    text-decoration: none;
+
+ &:hover {
+    color: $mainYellow;
+  }
+}
+
+.active {
+  color: $mainYellow;
+}
+
 .logoB {
   display: flex;
   width: 14em;

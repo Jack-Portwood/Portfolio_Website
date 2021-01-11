@@ -6,10 +6,16 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="social-media">
-        <i class="fab fa-linkedin-in fa-3x"></i>
+        <a
+          className="social-link"
+          href="https://www.linkedin.com/in/jack-portwood/"
+        >
+          <i class="fab fa-linkedin-in fa-3x"></i>
+        </a>
         <img src={LogoB} className="logoB" alt="Jack Portwood Logo" />
-
-        <i class="fab fa-github fa-3x"></i>
+        <a className="social-link" href="https://github.com/Jack-Portwood">
+          <i class="fab fa-github fa-3x"></i>
+        </a>
       </div>
     </div>
   );
