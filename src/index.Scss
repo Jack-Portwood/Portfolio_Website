@@ -203,42 +203,79 @@ body {
 }
 
 .item-centre {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
   width: 10em;
   height: 10em;
-  border: orange 1px solid;
+  //   border: orange 1px solid;
 
-  .stack-title {
-    flex-direction: row;
-    border: 1px solid purple;
-    width: 3em;
-    height: 2em;
+  .project-stack {
+    width: 10em;
+    height: 4em;
+    // border: 1px solid purple;
 
-    .project-stack {
-      border: 1px solid red;
+    .stack-container {
+      display: flex;
+      justify-content: space-between;
       width: 10em;
+      height: 2.5em;
+      // border: green 1px solid;
+    }
+
+    .framework-container {
+      //   border: green 1px solid;
+      width: 2em;
       height: 2em;
+      color: #61dbfb;
+    }
+
+    .language-container {
+      //   border: red 1px solid;
+      width: 2em;
+      height: 2em;
+      color: #f0db4f;
+    }
+
+    .runTimEnv-container {
+      //   border: blue 1px solid;
+      width: 2.5em;
+      height: 2em;
+      color: #68a063;
+    }
+
+    .stack-title {
+      width: 3em;
+      height: 1.2em;
+      color: $mainGrey;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+      //   border: 1px solid red;
     }
   }
 
   .project-github-container {
     display: inline-flex;
     align-self: baseline;
-    // border: 1px solid red;
     width: 10em;
     height: 2em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+    // border: 1px solid red;
 
     .project-github {
       display: inline-flex;
-      //   border: 1px solid blue;
       width: 2em;
       height: 2em;
-            color: $mainTeal;
+      color: $mainTeal;
+    //   border: 1px solid blue;
 
+      &:hover {
+        color: $mainYellow;
+      }
+    }
+
+    .active {
+      color: $mainYellow;
     }
 
     .github-text {
@@ -247,9 +284,14 @@ body {
       height: 2em;
       color: $mainGrey;
       font-size: 0.85em;
-      margin-left: 0.6em;
-            //   border: 1px solid gold;
-
+      margin-left: 1.6em;
+      &:hover {
+        color: $mainYellow;
+      }
+      //   border: 1px solid gold;
+    }
+    .active {
+      color: $mainYellow;
     }
   }
 
@@ -262,20 +304,22 @@ body {
 
     .project-type {
       display: inline-flex;
+      justify-content: center;
       width: 2.5em;
       height: 2.4em;
       font-family: "MuseoModerno", cursive;
       color: $mainTeal;
-      //   border: 1px solid green;
+      margin-right: 1em;
+    //   border: 1px solid green;
     }
 
     .projectTypeCat {
       display: inline-flex;
-      width: 9em;
+      width: 13em;
       height: 2.7em;
       font-size: 0.85em;
       color: $mainGrey;
-      //   border: 1px solid cyan;
+      // border: 1px solid cyan;
     }
   }
 }
