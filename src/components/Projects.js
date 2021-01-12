@@ -27,7 +27,8 @@ const Projects = ({ item }) => {
         </div>
       </div>
       <div className="item-right">
-        <img className="project-img" alt="for project" src={item.image} />
+        <div > {item.image}
+        </div>
       </div>
     </div>
   );

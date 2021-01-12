@@ -15,11 +15,19 @@ export default [
         <i className="fab fa-github fa-2x"></i>
       </a>
     ),
+
     projectType: <i className="fas fa-user-friends fa-lg"></i>,
     projectTypeCat: "Group Project",
 
-    image: "images/scroller.png"
-  
+    image: (
+      <a className="project-img" href="https://scrollingapp.netlify.app/">
+        <img
+          className="project-img"
+          alt="screen shot of project"
+          src="images/scroller.png"
+        />
+      </a>
+    ),
   },
   {
     id: 2,
@@ -29,17 +37,23 @@ export default [
     framework: <i className="fab fa-react fa-3x"></i>,
     language: <i className="fab fa-js fa-3x"></i>,
     runTimEnv: <i className="fab fa-node fa-3x"></i>,
-    github: (
+    github: 
       <a
         className="project-github"
         href="https://github.com/Jack-Portwood/NYE_count_down_clock"
       >
         <i className="fab fa-github fa-2x"></i>
-      </a>
-    ),
+      </a>,
+
     projectType: <i className="fas fa-male fa-2x"> </i>,
     projectTypeCat: "Indivdual Project",
-    image: "images/timer.png",
+    image: 
+      <a className="project-img" href="https://hogmanay-countdown.netlify.app/">
+        <img
+          className="project-img"
+          alt="screen shot of project"
+          src="images/timer.png"/>
+      </a>
   },
   {
     id: 3,
@@ -60,6 +74,12 @@ export default [
     projectType: <i class="fas fa-male fa-2x"></i>,
     projectTypeCat: "Indivdual Project",
 
-    image: "images/dugs.png",
+    image: <a className="project-img" href="https://request-dugs.netlify.app/">
+        <img
+          className="project-img"
+          alt="screen shot of project"
+          src="images/dugs.png"/>
+      </a>,
   },
 ];
+
