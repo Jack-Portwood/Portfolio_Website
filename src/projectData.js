@@ -66,9 +66,9 @@ export default [
     title: "Request Dugs",
     description:
       "Request-Dugs was initially an excerise in refamiliarize myself with async fetch requests. ",
-    framework: <i class="fab fa-react fa-3x"></i>,
-    language: <i class="fab fa-js fa-3x"></i>,
-    runTimEnv: <i class="fab fa-node fa-3x"></i>,
+    framework: <i className="fab fa-react fa-3x"></i>,
+    language: <i className="fab fa-js fa-3x"></i>,
+    runTimEnv: <i className="fab fa-node fa-3x"></i>,
     github: (
       <a
         className="project-github"
@@ -77,7 +77,7 @@ export default [
         <i className="fab fa-github fa-2x"></i>
       </a>
     ),
-    projectType: <i class="fas fa-male fa-2x"></i>,
+    projectType: <i className="fas fa-male fa-2x"></i>,
     projectTypeCat: "Indivdual Project",
 
     image: (
