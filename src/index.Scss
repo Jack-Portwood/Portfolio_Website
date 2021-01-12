@@ -200,10 +200,8 @@ body {
 }
 
 .item-centre {
-  //   justify-content: center;
-  //   align-items: center;
   width: 12em;
-  height: 10.2em;
+  height: 11em;
   // border: orange 1px solid;
 
   .project-stack {
@@ -213,7 +211,7 @@ body {
 
     .stack-container {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       width: 12em;
       height: 3em;
       // border: green 1px solid;
@@ -221,13 +219,15 @@ body {
 
     .framework-container {
       // border: green 1px solid;
-
       color: #61dbfb;
+      margin-left: 1em;
+
     }
 
     .language-container {
-      //   border: red 1px solid;
-
+      // border: red 1px solid;
+      margin-left: 1em;
+      margin-right: 1em;
       color: #f0db4f;
     }
 
@@ -252,8 +252,7 @@ body {
     align-self: baseline;
     width: 12em;
     height: 2em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+   
     // border: 1px solid red;
 
     .project-github {
@@ -288,7 +287,6 @@ body {
 
   .project-category-container {
     display: inline-flex;
-    align-self: baseline;
     width: 12em;
     height: 2.5em;
     // border: 1px solid red;
@@ -300,7 +298,6 @@ body {
       height: 2.4em;
       font-family: "MuseoModerno", cursive;
       color: $mainTeal;
-      margin-right: 1em;
       // border: 1px solid green;
     }
 
@@ -310,6 +307,8 @@ body {
       height: 2.7em;
       font-size: 0.85em;
       color: $mainGrey;
+      margin-left: 1.8em;
+
       // border: 1px solid cyan;
     }
   }
@@ -464,13 +463,17 @@ body {
       // border: 1px solid purple;
 
       .stack-container {
+        justify-content: space-between;
         width: 8em;
-        height: 3em;
+        height: 1.5em;
         // border: green 1px solid;
+        margin-right: 2em;
+
       }
 
       .framework-container {
         font-size: 0.5em;
+
       }
 
       .language-container {
@@ -498,6 +501,9 @@ body {
 
       .project-github {
         font-size: 0.8em;
+        // border: springgreen 1px solid;
+        margin-left: 0.4em;
+
       }
 
       .github-text {
@@ -507,12 +513,19 @@ body {
 
     .project-category-container {
       width: 8em;
-      height: 3em;
+      height: 2.6em;
       // border: 1px solid red;
-    }
-    .project-type {
-      // border: 1px solid green;
-      font-size: 0.9em;
+
+      .project-type {
+        // border: 1px solid green;
+        font-size: 0.8em;
+        margin-left: 0.4em;
+      }
+      .projectTypeCat {
+        font-size: 0.8em;
+        width: 3em;
+        // border: 1px solid gold;
+      }
     }
   }
   .item-right {
@@ -604,7 +617,7 @@ body {
   .item-centre {
     width: 9em;
     height: 9em;
-    // border: orange 1px solid;
+    border: orange 1px solid;
 
     .project-stack {
       width: 8em;
@@ -619,6 +632,7 @@ body {
 
       .framework-container {
         font-size: 0.8em;
+        // margin-left: 1em;
       }
 
       .language-container {
@@ -664,6 +678,7 @@ body {
       }
       .projectTypeCat {
         font-size: 0.8em;
+        margin-left: 1em;
       }
     }
   }
@@ -683,7 +698,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (width: 1024px) {
   .nav-link {
     font-size: 2.5em;
   }
@@ -691,8 +706,8 @@ body {
   .home-container {
     height: 86em;
     .logo {
-      height: 60em;
-      width: 60em;
+      height: 55em;
+      width: 55em;
     }
   }
 
@@ -755,21 +770,29 @@ body {
       .stack-container {
         width: 12em;
         height: 3em;
-        // border: green 1px solid;
+        border: green 1px solid;
       }
       .framework-container {
         font-size: 1em;
+        border:red 1px solid;
       }
 
       .language-container {
         font-size: 1em;
+        margin-left: 0em;
+        margin-right: 0em;
+                border:red 1px solid;
+
+
       }
       .runTimEnv-container {
         font-size: 1em;
+                border:red 1px solid;
+
       }
 
       .stack-title {
-        // border: 1px solid red;
+        border: 1px solid red;
         width: 8em;
         height: 2em;
         font-size: 1.5em;
@@ -778,7 +801,7 @@ body {
     }
 
     .project-github-container {
-      // border: 1px solid red;
+      border: 1px solid red;
       width: 12em;
       height: 2.4em;
 
@@ -787,14 +810,14 @@ body {
       }
 
       .github-text {
-        // border: crimson 1px solid;
+        border: crimson 1px solid;
         height: 2em;
         font-size: 1.2em;
       }
     }
 
     .project-category-container {
-      // border: teal 1px solid;
+      border: teal 1px solid;
       width: 12em;
       height: 1.9em;
 
@@ -803,19 +826,19 @@ body {
       }
 
       .projectTypeCat {
+        height: 1.7em;
         font-size: 1em;
+        border: 1px solid green;
       }
     }
   }
-  .item-right{
+  .item-right {
     width: 12em;
     height: 12em;
   }
 
-  .project-img{
+  .project-img {
     width: 12em;
     height: 12em;
   }
-
-  
 }
