@@ -24,7 +24,7 @@ export default [
         <img
           className="project-img"
           alt="screen shot of project"
-          src="images/scroller.png"
+          src="images/scroller1.png"
         />
       </a>
     ),
@@ -56,7 +56,7 @@ export default [
         <img
           className="project-img"
           alt="screen shot of project"
-          src="images/timer.png"
+          src="images/timer1.png"
         />
       </a>
     ),
