@@ -118,17 +118,15 @@ body {
   border-radius: 25px;
   box-shadow: 1px 2px 10px $mainGrey;
   font-weight: bold;
-
-  
 }
 .text-front-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20em;
-    font-size: 2rem;
-    //   border: red 1px solid;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20em;
+  font-size: 2rem;
+  //   border: red 1px solid;
+}
 
 .card-back {
   display: flex;
@@ -141,18 +139,18 @@ body {
   color: $mainTeal;
   border-radius: 25px;
   transform: rotateX(180deg);
-  box-shadow: 1px 2px 10px $mainGrey; 
+  box-shadow: 1px 2px 10px $mainGrey;
 }
 .text-back-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20em;
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-align: center;
-    // border: red 1px solid;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20em;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  // border: red 1px solid;
+}
 ///////////////////////////
 //////Projects Section/////
 ///////////////////////////
@@ -333,15 +331,12 @@ body {
   text-align: center;
   border: $mainWhite 1.5px solid;
   transition: all 0.6s linear;
-
 }
 
-  .project-link {
-    text-decoration: none;
-    // border: black 1px solid;
-    
-  }
-  
+.project-link {
+  text-decoration: none;
+  // border: black 1px solid;
+}
 
 ////////////////
 /////Footer/////
@@ -350,12 +345,11 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 5em;
-  padding: 3rem;
+  padding: 6rem;
   background: $mainTeal;
   color: $mainWhite;
   flex-shrink: 0;
-  height: 15em;
-  //   border: 1px blue solid;
+  // border: 1px blue solid;
 }
 
 .social-media {
@@ -364,6 +358,7 @@ body {
   align-items: center;
   height: 10em;
   width: 80em;
+  font-size: 1.5em;
   // border: red 1px solid;
 }
 
@@ -390,7 +385,7 @@ body {
 /////Media query/////
 /////////////////////
 
-@media screen and (max-width: 768px,) {
+@media screen and (max-width: 768px) {
   .nav-bar {
     height: 1em;
   }
@@ -411,7 +406,6 @@ body {
     margin-top: 3em;
     height: 43em;
     margin-bottom: 3em;
-    
   }
   .card {
     width: 13em;
@@ -419,14 +413,13 @@ body {
     margin-bottom: 20em;
   }
 
-    .text-front-card {
-      font-size: 1rem;
-    }
-  
-  
-    .text-back-card {
-      font-size: 0.8rem;
-    }
+  .text-front-card {
+    font-size: 1rem;
+  }
+
+  .text-back-card {
+    font-size: 0.8rem;
+  }
 
   //////////////////////
   .protfolio-parallax {
@@ -508,7 +501,6 @@ body {
       }
 
       .github-text {
-        margin-left: 1.5em;
         height: 1.5em;
       }
     }
@@ -523,19 +515,10 @@ body {
       font-size: 0.9em;
     }
   }
-
-  .item-centre {
+  .item-right{
     width: 8em;
     height: 8em;
-    // border: orange 1px solid;
   }
-
-  .item-right {
-    width: 8em;
-    height: 8em;
-    //border: purple 1px solid;
-  }
-
   .project-img {
     width: 8em;
     height: 8em;
@@ -552,6 +535,158 @@ body {
     height: 14em;
   }
 }
-///////////////////////////////////////////////////////
-// @media screen and (max-width: 992px) {
-// }
+//////////////////////////////////////////
+@media screen and (min-width: 768px) {
+  .nav-link {
+    font-size: 2em;
+  }
+
+  .home-container {
+    height: 64em;
+    .logo {
+      height: 50em;
+      width: 50em;
+      margin-top: 10em;
+    }
+  }
+
+  .parallax-container {
+    height: 64em;
+  }
+
+  .card {
+    width: 20em;
+    height: 10em;
+    margin-bottom: 10em;
+  }
+
+  .text-front-card {
+    font-size: 2rem;
+  }
+
+  .text-back-card {
+    font-size: 1rem;
+  }
+
+  //////////////////////
+  .protfolio-parallax {
+    height: 100%;
+  }
+
+  .portfolio-container {
+    height: 64em;
+    width: 45em;
+  }
+
+  .projects-wrapper {
+    flex-direction: row;
+    width: 43em;
+    height: 12em;
+    margin-left: 1em;
+  }
+
+  .item-left {
+    width: 9em;
+    height: 9em;
+    color: $mainGrey;
+    // border: black 1px solid;
+
+    .project-title {
+      font-size: 1em;
+      //border: red 1px solid;
+    }
+    .project-descrption {
+      font-size: 0.79em;
+      //border: blue 1px solid;
+    }
+  }
+
+  .item-centre {
+    width: 9em;
+    height: 9em;
+    border: orange 1px solid;
+
+    .project-stack {
+      width: 8em;
+      height: 2em;
+      // border: 1px solid purple;
+
+      .stack-container {
+        width: 8em;
+        height: 3em;
+        // border: green 1px solid;
+      }
+
+      .framework-container {
+        font-size: 0.8em;
+      }
+
+      .language-container {
+        font-size: 0.8em;
+      }
+
+      .runTimEnv-container {
+        font-size: 0.8em;
+      }
+
+      .stack-title {
+        // border: 1px solid red;
+        width: 3em;
+        height: 1.2em;
+        margin-bottom: 0.5em;
+      }
+    }
+
+    .project-github-container {
+      // border: 1px solid red;
+      width: 8em;
+      height: 1.3em;
+      margin-top: 2.5em;
+      margin-bottom: 1em;
+
+      .project-github {
+        font-size: 1em;
+      }
+
+      .github-text {
+        height: 1.5em;
+      }
+    }
+
+    .project-category-container {
+      width: 9em;
+      height: 2em;
+      // border: 1px solid red;
+
+      .project-type {
+        // border: 1px solid green;
+        font-size: 0.9em;
+      }
+      .projectTypeCat {
+        font-size: 0.8em;
+      }
+    }
+  }
+
+  .item-right{
+    width: 9em;
+    height: 9em;
+  }
+  .project-img {
+    width: 9em;
+    height: 9em;
+  }
+
+ 
+
+  .footer-container {
+    height: 12em;
+    font-size: 1em;
+  }
+
+  
+
+  
+
+
+}
