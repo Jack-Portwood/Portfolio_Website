@@ -202,7 +202,7 @@ body {
 .item-centre {
   width: 12em;
   height: 11em;
-  // border: orange 1px solid;
+  border: orange 1px solid;
 
   .project-stack {
     width: 12em;
@@ -214,20 +214,17 @@ body {
       justify-content: space-around;
       width: 12em;
       height: 3em;
-      // border: green 1px solid;
+      border: green 1px solid;
     }
 
     .framework-container {
       // border: green 1px solid;
       color: #61dbfb;
-      margin-left: 1em;
-
     }
 
     .language-container {
       // border: red 1px solid;
-      margin-left: 1em;
-      margin-right: 1em;
+     
       color: #f0db4f;
     }
 
@@ -252,7 +249,7 @@ body {
     align-self: baseline;
     width: 12em;
     height: 2em;
-   
+
     // border: 1px solid red;
 
     .project-github {
@@ -384,32 +381,29 @@ body {
 /////Media query/////
 /////////////////////
 
-@media screen and (max-width: 768px) {
-  .nav-bar {
-    height: 1em;
-  }
+@media screen and (max-width: 600px) {
+  
   .nav-link {
     font-size: 1em;
   }
 
   .home-container {
-    height: 54em;
+    height: 41em;
     .logo {
-      height: 17em;
-      width: 17em;
-      margin-bottom: 5em;
+      height: 20em;
+      width: 20em;
     }
   }
 
   .parallax-container {
-    margin-top: 3em;
-    height: 52em;
-    margin-bottom: 3em;
+    margin-top: 2em;
+    height: 41em;
+    margin-bottom: 2em;
   }
   .card {
-    width: 13em;
-    height: 7em;
-    margin-bottom: 20em;
+    width: 12em;
+    height: 6em;
+    margin-bottom: 21em;
   }
 
   .text-front-card {
@@ -417,7 +411,7 @@ body {
   }
 
   .text-back-card {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   //////////////////////
@@ -430,415 +424,422 @@ body {
     margin-top: 10em;
   }
 
-  .projects-wrapper {
-    flex-direction: column;
-    width: 12em;
-    height: 30em;
-  }
+  // .projects-wrapper {
+  //   flex-direction: column;
+  //   width: 12em;
+  //   height: 30em;
+  // }
 
-  .item-left {
-    width: 8em;
-    height: 8em;
-    color: $mainGrey;
-    // border: black 1px solid;
+  // .item-left {
+  //   width: 8em;
+  //   height: 8em;
+  //   color: $mainGrey;
+  //   // border: black 1px solid;
 
-    .project-title {
-      font-size: 1em;
-      //border: red 1px solid;
-    }
-    .project-descrption {
-      font-size: 0.72em;
-      //border: blue 1px solid;
-    }
-  }
+  //   .project-title {
+  //     font-size: 1em;
+  //     //border: red 1px solid;
+  //   }
+  //   .project-descrption {
+  //     font-size: 0.72em;
+  //     //border: blue 1px solid;
+  //   }
+  // }
 
-  .item-centre {
-    width: 8em;
-    height: 8em;
-    // border: orange 1px solid;
+  // .item-centre {
+  //   width: 8em;
+  //   height: 8em;
+  //   // border: orange 1px solid;
 
-    .project-stack {
-      width: 8em;
-      height: 2em;
-      // border: 1px solid purple;
+  //   .project-stack {
+  //     width: 8em;
+  //     height: 2em;
+  //     // border: 1px solid purple;
 
-      .stack-container {
-        justify-content: space-between;
-        width: 8em;
-        height: 1.5em;
-        // border: green 1px solid;
-        margin-right: 2em;
+  //     .stack-container {
+  //       justify-content: space-between;
+  //       width: 8em;
+  //       height: 1.5em;
+  //       // border: green 1px solid;
+  //       margin-right: 2em;
+  //     }
 
-      }
+  //     .framework-container {
+  //       font-size: 0.5em;
+  //     }
 
-      .framework-container {
-        font-size: 0.5em;
+  //     .language-container {
+  //       font-size: 0.5em;
+  //     }
 
-      }
+  //     .runTimEnv-container {
+  //       font-size: 0.5em;
+  //     }
 
-      .language-container {
-        font-size: 0.5em;
-      }
+  //     .stack-title {
+  //       // border: 1px solid red;
+  //       width: 3em;
+  //       height: 1.2em;
+  //       margin-bottom: 0.5em;
+  //     }
+  //   }
 
-      .runTimEnv-container {
-        font-size: 0.5em;
-      }
+  //   .project-github-container {
+  //     // border: 1px solid red;
+  //     width: 8em;
+  //     height: 1.3em;
+  //     margin-top: 1.6em;
+  //     margin-bottom: 0.5em;
 
-      .stack-title {
-        // border: 1px solid red;
-        width: 3em;
-        height: 1.2em;
-        margin-bottom: 0.5em;
-      }
-    }
+  //     .project-github {
+  //       font-size: 0.8em;
+  //       // border: springgreen 1px solid;
+  //       margin-left: 0.4em;
+  //     }
 
-    .project-github-container {
-      // border: 1px solid red;
-      width: 8em;
-      height: 1.3em;
-      margin-top: 1.6em;
-      margin-bottom: 0.5em;
+  //     .github-text {
+  //       font-size: 0.7em;
+  //       height: 1.5em;
+  //       margin-left: 2em;
+  //     }
+  //   }
 
-      .project-github {
-        font-size: 0.8em;
-        // border: springgreen 1px solid;
-        margin-left: 0.4em;
+  //   .project-category-container {
+  //     width: 8em;
+  //     height: 2.6em;
+  //     // border: 1px solid red;
 
-      }
+  //     .project-type {
+  //       // border: 1px solid green;
+  //       font-size: 0.8em;
+  //       margin-left: 0.6em;
+  //     }
+  //     .projectTypeCat {
+  //       font-size: 0.8em;
+  //       width:8em;
+  //       // border: 1px solid gold;
+  //     }
+  //   }
+  // }
+  // .item-right {
+  //   width: 8em;
+  //   height: 8em;
+  // }
+  // .project-img {
+  //   width: 8em;
+  //   height: 8em;
+  // }
 
-      .github-text {
-        height: 1.5em;
-      }
-    }
+  // .footer-container {
+  //   height: 7em;
+  //   margin-top: 3em;
+  //   font-size: 0.5em;
+  // }
 
-    .project-category-container {
-      width: 8em;
-      height: 2.6em;
-      // border: 1px solid red;
-
-      .project-type {
-        // border: 1px solid green;
-        font-size: 0.8em;
-        margin-left: 0.4em;
-      }
-      .projectTypeCat {
-        font-size: 0.8em;
-        width: 3em;
-        // border: 1px solid gold;
-      }
-    }
-  }
-  .item-right {
-    width: 8em;
-    height: 8em;
-  }
-  .project-img {
-    width: 8em;
-    height: 8em;
-  }
-
-  .footer-container {
-    height: 7em;
-    margin-top: 3em;
-    font-size: 0.5em;
-  }
-
-  .logoB {
-    width: 14em;
-    height: 14em;
-  }
+  // .logoB {
+  //   width: 14em;
+  //   height: 14em;
+  // }
 }
 //////////////////////////////////////////
-@media screen and (min-width: 768px) {
-  .nav-link {
-    font-size: 2em;
-  }
+// @media screen and (max-width: 992px) {
+//   .nav-link {
+//     font-size: 1em;
+//   }
 
-  .home-container {
-    height: 64em;
-    .logo {
-      height: 40em;
-      width: 40em;
-      margin-top: 7em;
-    }
-  }
+//   .home-container {
+//     height: 64em;
+//     .logo {
+//       height: 40em;
+//       width: 40em;
+//       margin-top: 7em;
+//     }
+//   }
 
-  .parallax-container {
-    height: 64em;
-  }
+//   .parallax-container {
+//     height: 64em;
+//   }
 
-  .card {
-    width: 20em;
-    height: 10em;
-    margin-bottom: 10em;
-  }
+//   .card {
+//     width: 20em;
+//     height: 10em;
+//     margin-bottom: 10em;
+//   }
 
-  .text-front-card {
-    font-size: 2rem;
-  }
+//   .text-front-card {
+//     font-size: 2rem;
+//   }
 
-  .text-back-card {
-    font-size: 1rem;
-  }
+//   .text-back-card {
+//     font-size: 1rem;
+//   }
 
-  //////////////////////
-  .protfolio-parallax {
-    height: 100%;
-  }
+//   //////////////////////
+//   .protfolio-parallax {
+//     height: 100%;
+//   }
 
-  .portfolio-container {
-    height: 64em;
-    width: 45em;
-  }
+//   .portfolio-container {
+//     height: 64em;
+//     width: 45em;
+//   }
 
-  .projects-wrapper {
-    flex-direction: row;
-    width: 43em;
-    height: 12em;
-    margin-left: 1em;
-  }
+//   .projects-wrapper {
+//     flex-direction: row;
+//     width: 43em;
+//     height: 12em;
+//     margin-left: 1em;
+//   }
 
-  .item-left {
-    width: 9em;
-    height: 9em;
-    color: $mainGrey;
-    // border: black 1px solid;
+//   .item-left {
+//     width: 9em;
+//     height: 9em;
+//     color: $mainGrey;
+//     // border: black 1px solid;
 
-    .project-title {
-      font-size: 1em;
-      //border: red 1px solid;
-    }
-    .project-descrption {
-      font-size: 0.79em;
-      //border: blue 1px solid;
-    }
-  }
+//     .project-title {
+//       font-size: 1em;
+//       //border: red 1px solid;
+//     }
+//     .project-descrption {
+//       font-size: 0.79em;
+//       //border: blue 1px solid;
+//     }
+//   }
 
-  .item-centre {
-    width: 9em;
-    height: 9em;
-    border: orange 1px solid;
+//   // .item-centre {
+//   //   flex-direction: column;
+//   //   width: 9em;
+//   //   height: 9em;
+//   //   border: orange 1px solid;
 
-    .project-stack {
-      width: 8em;
-      height: 2em;
-      // border: 1px solid purple;
+//   //   .project-stack {
+//   //     width: 8em;
+//   //     height: 2em;
+//   //     // border: 1px solid purple;
 
-      .stack-container {
-        width: 8em;
-        height: 3em;
-        // border: green 1px solid;
-      }
+//   //     .stack-container {
+//   //       width: 9em;
+//   //       height: 2em;
 
-      .framework-container {
-        font-size: 0.8em;
-        // margin-left: 1em;
-      }
+//   //       border: green 1px solid;
+//   //     }
 
-      .language-container {
-        font-size: 0.8em;
-      }
+//   //     .framework-container {
+//   //       font-size: 0.7em;
+//   //     }
 
-      .runTimEnv-container {
-        font-size: 0.8em;
-      }
+//   //     .language-container {
+//   //       font-size: 0.7em;
+//   //     }
 
-      .stack-title {
-        // border: 1px solid red;
-        width: 3em;
-        height: 1.2em;
-        margin-bottom: 0.5em;
-      }
-    }
+//   //     .runTimEnv-container {
+//   //       font-size: 0.7em;
+//   //     }
 
-    .project-github-container {
-      // border: 1px solid red;
-      width: 8em;
-      height: 1.3em;
-      margin-top: 2.5em;
-      margin-bottom: 1em;
+//   //     .stack-title {
+//   //       // border: 1px solid red;
+//   //       width: 3em;
+//   //       height: 1.2em;
+//   //       margin-bottom: 0.5em;
+//   //     }
+//   //   }
 
-      .project-github {
-        font-size: 1em;
-      }
+//   //   .project-github-container {
+//   //     border: 1px solid red;
+//   //     width: 8em;
+//   //     height: 1.3em;
+//   //     margin-top: 1em;
+//   //     margin-bottom: 1em;
 
-      .github-text {
-        height: 1.5em;
-      }
-    }
+//   //     .project-github {
+//   //       font-size: 1em;
+//   //       border: 1px solid red;
+//   //     }
 
-    .project-category-container {
-      width: 9em;
-      height: 2em;
-      // border: 1px solid red;
+//   //     .github-text {
+//   //       height: 1em;
+//   //       border: 1px solid green;
+//   //     }
+//   //   }
 
-      .project-type {
-        // border: 1px solid green;
-        font-size: 0.9em;
-      }
-      .projectTypeCat {
-        font-size: 0.8em;
-        margin-left: 1em;
-      }
-    }
-  }
+//   //   .project-category-container {
+//   //     width: 9em;
+//   //     height: 3em;
+//   //     border: 1px solid red;
 
-  .item-right {
-    width: 9em;
-    height: 9em;
-  }
-  .project-img {
-    width: 9em;
-    height: 9em;
-  }
+//   //     .project-type {
+//   //       border: 1px solid green;
+//   //       font-size: 0.9em;
+//   //     }
+//   //     .projectTypeCat {
+//   //       height: 3em;
+//   //       width: 10em;
+//   //       font-size: 0.8em;
+//   //       margin-left: 1em;
+//   //       border: 1px solid blue;
+//   //     }
+//   //   }
+//   // }
 
-  .footer-container {
-    height: 12em;
-    font-size: 1em;
-  }
-}
+//   .item-right {
+//     width: 9em;
+//     height: 9em;
+//   }
+//   .project-img {
+//     width: 9em;
+//     height: 9em;
+//   }
 
-@media screen and (width: 1024px) {
-  .nav-link {
-    font-size: 2.5em;
-  }
+//   .footer-container {
+//     height: 12em;
+//     font-size: 1em;
+//   }
+// }
 
-  .home-container {
-    height: 86em;
-    .logo {
-      height: 55em;
-      width: 55em;
-    }
-  }
+// @media screen and (max-width: 1024px) {
+//   .nav-link {
+//     font-size: 2.5em;
+//   }
 
-  .parallax-container {
-    height: 86em;
-  }
+//   .home-container {
+//     height: 86em;
+//     .logo {
+//       height: 55em;
+//       width: 55em;
+//     }
+//   }
 
-  .card {
-    width: 30em;
-    height: 15em;
-    margin-top: 12em;
-  }
-  .text-front-card {
-    font-size: 3em;
-  }
+//   .parallax-container {
+//     height: 86em;
+//   }
 
-  .text-back-card {
-    font-size: 2em;
-  }
+//   .card {
+//     width: 30em;
+//     height: 15em;
+//     margin-top: 12em;
+//   }
+//   .text-front-card {
+//     font-size: 3em;
+//   }
 
-  .protfolio-parallax {
-    height: 100%;
-  }
-  .portfolio-container {
-    height: 74em;
-    margin-right: 7em;
-  }
+//   .text-back-card {
+//     font-size: 2em;
+//   }
 
-  .projects-wrapper {
-    width: 50em;
-    height: 74em;
-  }
+//   .protfolio-parallax {
+//     height: 100%;
+//   }
+//   .portfolio-container {
+//     height: 74em;
+//     margin-right: 7em;
+//   }
 
-  .item-left {
-    width: 12em;
-    height: 12em;
-    color: $mainGrey;
-    // border: black 1px solid;
+//   .projects-wrapper {
+//     width: 50em;
+//     height: 74em;
+//   }
 
-    .project-title {
-      font-size: 1.4em;
-      // border: red 1px solid;
-    }
-    .project-descrption {
-      font-size: 1em;
-      // border: blue 1px solid;
-    }
-  }
+//   .item-left {
+//     width: 12em;
+//     height: 12em;
+//     color: $mainGrey;
+//     // border: black 1px solid;
 
-  .item-centre {
-    width: 12em;
-    height: 12em;
-    // border: orange 1px solid;
+//     .project-title {
+//       font-size: 1.4em;
+//       // border: red 1px solid;
+//     }
+//     .project-descrption {
+//       font-size: 1em;
+//       // border: blue 1px solid;
+//     }
+//   }
 
-    .project-stack {
-      width: 8em;
-      height: 4em;
-      // border: soild 1px purple;
+//   .item-centre {
+//     width: 12em;
+//     height: 12em;
+//     // border: orange 1px solid;
 
-      .stack-container {
-        width: 12em;
-        height: 3em;
-        border: green 1px solid;
-      }
-      .framework-container {
-        font-size: 1em;
-        border:red 1px solid;
-      }
+//     .project-stack {
+//       width: 8em;
+//       height: 4em;
+//       // border: soild 1px purple;
 
-      .language-container {
-        font-size: 1em;
-        margin-left: 0em;
-        margin-right: 0em;
-                border:red 1px solid;
+//       .stack-container {
+//         justify-content: space-between;
+//         width: 12em;
+//         height: 2.5em;
+//         // border: green 1px solid;
+//       }
+//       .framework-container {
+//         font-size: 0.9em;
+//         // border: red 1px solid;
+//       }
 
+//       .language-container {
+//         font-size: 0.9em;
+//         // border: red 1px solid;
+//       }
+//       .runTimEnv-container {
+//         font-size: 0.9em;
+//         // border: red 1px solid;
+//       }
 
-      }
-      .runTimEnv-container {
-        font-size: 1em;
-                border:red 1px solid;
+//       .stack-title {
+//         // border: 1px solid red;
+//         width: 8em;
+//         height: 1.2em;
+//         font-size: 1.5em;
+//         margin-bottom: 0.5em;
+//       }
+//     }
 
-      }
+//     .project-github-container {
+//       // border: 1px solid red;
+//       width: 12em;
+//       height: 2.4em;
+//       margin-bottom: 0.5em;
+//       margin-top: 1.5em;
 
-      .stack-title {
-        border: 1px solid red;
-        width: 8em;
-        height: 2em;
-        font-size: 1.5em;
-        margin-bottom: 0em;
-      }
-    }
+//       .project-github {
+//         font-size: 1.1em;
+//         margin-left: 0.4em;
+//       }
 
-    .project-github-container {
-      border: 1px solid red;
-      width: 12em;
-      height: 2.4em;
+//       .github-text {
+//         // border: crimson 1px solid;
+//         height: 2em;
+//         font-size: 1.1em;
+//         margin-left: 2em;
+//       }
+//     }
 
-      .project-github {
-        font-size: 1.1em;
-      }
+//     .project-category-container {
+//       // border: teal 1px solid;
+//       width: 12em;
+//       height: 2.7em;
 
-      .github-text {
-        border: crimson 1px solid;
-        height: 2em;
-        font-size: 1.2em;
-      }
-    }
+//       .project-type {
+//         font-size: 1.1em;
+//         // border: 1px solid red;
+//         margin-left: 1.3em;
+//       }
 
-    .project-category-container {
-      border: teal 1px solid;
-      width: 12em;
-      height: 1.9em;
+//       .projectTypeCat {
+//         height: 2.7em;
+//         font-size: 1em;
+//         // border: 1px solid green;
+//       }
+//     }
+//   }
+//   .item-right {
+//     width: 12em;
+//     height: 12em;
+//   }
 
-      .project-type {
-        font-size: 0.9em;
-      }
-
-      .projectTypeCat {
-        height: 1.7em;
-        font-size: 1em;
-        border: 1px solid green;
-      }
-    }
-  }
-  .item-right {
-    width: 12em;
-    height: 12em;
-  }
-
-  .project-img {
-    width: 12em;
-    height: 12em;
-  }
-}
+//   .project-img {
+//     width: 12em;
+//     height: 12em;
+//   }
+// }
