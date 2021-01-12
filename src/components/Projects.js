@@ -27,8 +27,7 @@ const Projects = ({ item }) => {
         </div>
       </div>
       <div className="item-right">
-        <div > {item.image}
-        </div>
+        <div> {item.image}</div>
       </div>
     </div>
   );

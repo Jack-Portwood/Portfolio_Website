@@ -18,8 +18,7 @@ const Portfolio = () => {
     <Parallax
       className="protfolio-parallax"
       bgImage={banner2}
-      strength={500}
-      blur={{ min: -1, max: 1 }}
+      strength={-100}
     >
       <div className="portfolio-container" id="portfolio-container">
         {data}
