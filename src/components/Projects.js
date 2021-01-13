@@ -1,7 +1,7 @@
 import React from "react";
-// import banner from '../banner.jpg'
-
 const Projects = ({ item }) => {
+  //Displays data
+
   return (
     <div className="projects-wrapper">
       <div className="item-left">

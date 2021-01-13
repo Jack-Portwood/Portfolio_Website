@@ -1,14 +1,15 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import banner from "../banner.jpg";
+import image from "../images/banner.jpg";
 
 const AboutMe = () => {
   //this will contain a styled card containing text
+  //See if it is possible to pass the text to the card instead of hard coding.
 
   return (
     <Parallax
       className="parallax-container"
-      bgImage={banner}
+      bgImage={image}
       strength={100}
       blur={{ min: -10, max: 10 }}
     >

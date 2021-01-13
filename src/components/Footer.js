@@ -1,5 +1,5 @@
 import React from "react";
-import LogoB from "../LogoB.png";
+import image from "../images/LogoB.png";
 const Footer = () => {
   //This will preasent Logo and socail media links
 
@@ -12,7 +12,7 @@ const Footer = () => {
         >
           <i className="fab fa-linkedin-in fa-3x"></i>
         </a>
-        <img src={LogoB} className="logoB" alt="Jack Portwood Logo" />
+        <img src={image} className="logoB" alt="Jack Portwood Logo" />
         <a className="social-link" href="https://github.com/Jack-Portwood">
           <i className="fab fa-github fa-3x"></i>
         </a>

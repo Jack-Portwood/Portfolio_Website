@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import projectData from "../projectData";
 import Projects from "../components/Projects";
 import { Parallax } from "react-parallax";
-import banner2 from "../banner2.jpg";
-// import banner from '../banner.jpg'
+import image from "../images/banner2.jpg";
 
 const Portfolio = () => {
   //This will container each indivdual project like a list
@@ -17,7 +16,7 @@ const Portfolio = () => {
   return (
     <Parallax
       className="protfolio-parallax"
-      bgImage={banner2}
+      bgImage={image}
       strength={-100}
     >
       <div className="portfolio-container" id="portfolio-container">

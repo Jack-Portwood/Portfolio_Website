@@ -1,11 +1,13 @@
 import React from 'react';
-import LogoB from '../LogoB.png'
+import image from '../images/LogoB.png'
+
+//displays logo at top of page
 
 const Home = () => {
 
     return (
       <div className="home-container" id="home-container">
-        <img src={LogoB} className="logo" alt="Jack Portwood Logo" />
+        <img src={image} className="logo" alt="Jack Portwood Logo" />
       </div>
     );
 }
