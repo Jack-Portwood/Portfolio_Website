@@ -1,4 +1,3 @@
-//  @import "~bootstrap";
 //rem is size relative to html root
 //em is relative size to direct or nearst neightbour
 
@@ -394,7 +393,7 @@ body {
     .logo {
       height: 17em;
       width: 17em;
-      margin-bottom: 5em;
+      margin-bottom: 12em;
     }
   }
 
@@ -452,12 +451,14 @@ body {
   .item-centre {
     width: 11em;
     height: 8.6em;
+    margin-top: 0.5em ;
     // border: orange 1px solid;
 
     .project-stack {
       width: 11em;
       height: 3em;
       margin-bottom: 1.2em;
+      ;
       // border: 1px solid purple;
 
       .stack-title {
