@@ -14,7 +14,7 @@ About view
 Projects view
 
 ## Development Background  
-This website was desgined to act as a protfolio website were I which will contain my project work.
+This website was desgined to act as a protfolio which will contain my project work.
 
 
 
