@@ -1,3 +1,23 @@
+# [Portfolio Website](https://jack-portwood-portfolio.netlify.app/)
+
+
+![Imgur](https://i.imgur.com/yXqKben.png)
+Diagram
+
+![Imgur](https://i.imgur.com/StZ05wI.png)
+Home view 
+
+![Imgur](https://i.imgur.com/wouQZRe.jpg)
+About view
+
+[Imgur](https://i.imgur.com/IyfooSE.jpg)
+Projects view
+
+## Development Background  
+This website was desgined to act as a protfolio website were I which will contain my project work.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
