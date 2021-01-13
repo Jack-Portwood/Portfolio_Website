@@ -21,7 +21,7 @@ const AboutMe = () => {
           <div className="card-back">
             <div className="text-back-card">
               The continuous learning and changing landscape brought me to
-              software development. <br /> It's a challange. <br /> Which I am
+              software development. <br /> It's a challenge. <br /> Which I am
               enjoying.
             </div>
           </div>
