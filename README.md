@@ -10,7 +10,7 @@ Home view
 ![Imgur](https://i.imgur.com/wouQZRe.jpg)
 About view
 
-[Imgur](https://i.imgur.com/IyfooSE.jpg)
+![Imgur](https://i.imgur.com/IyfooSE.jpg)
 Projects view
 
 ## Development Background  
