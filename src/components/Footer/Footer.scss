@@ -1,0 +1,41 @@
+@import '../../index.scss';
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  padding: 6rem;
+  background: $mainTeal;
+  color: $mainWhite;
+  flex-shrink: 0;
+  // border: 1px blue solid;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10em;
+  width: 80em;
+  font-size: 1.5em;
+  // border: red 1px solid;
+}
+
+.social-link {
+  color: $mainWhite;
+  transition: all 0.4s linear;
+
+  &:hover {
+    color: $mainYellow;
+  }
+}
+
+.active {
+  color: $mainYellow;
+}
+
+.logoB {
+  display: flex;
+  width: 14em;
+  height: 14em;
+  // border: 1px blue solid;
+}

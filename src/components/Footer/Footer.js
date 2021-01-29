@@ -1,5 +1,7 @@
 import React from "react";
-import image from "../images/LogoB.png";
+ import "./Footer.scss";
+
+import image from "../../images/LogoB.png";
 const Footer = () => {
   //This will preasent Logo and socail media links
 

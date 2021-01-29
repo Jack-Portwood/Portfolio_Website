@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar";
 import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer.js";
 
 const MainContainer = () => {
   //MainContainer containes react router and renders Footer
