@@ -1,0 +1,46 @@
+@import '../../index.scss';
+
+.protfolio-parallax {
+  display: flex;
+  justify-content: center;
+  height: 90em;
+  //   border: black 1px solid;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 12em;
+  height: 90em;
+  //   border: red 1px solid;
+}
+
+@media screen and (max-width: 600px) {
+  .protfolio-parallax {
+    height: 100%;
+  }
+
+  .portfolio-container {
+    height: 90%;
+    margin-top: 10em;
+  }
+  
+}
+
+@media screen and (width: 768px) {
+
+  .protfolio-parallax {
+    height: 90%;
+  }
+
+  .portfolio-container {
+    height: 64em;
+    width: 45em;
+  }
+  
+}
+
+@media screen and (width: 1024px) {
+  
+}

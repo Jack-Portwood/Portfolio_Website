@@ -1,4 +1,5 @@
 import React from "react";
+import './Projects.scss'
 const Projects = ({ item }) => {
   //Displays data
 

@@ -1,0 +1,55 @@
+@import '../../index.scss';
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $mainTeal;
+  height: 61em;
+  // border: blue 1px solid;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 40em;
+    height: 40em;
+    // border: springgreen 1px solid;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .home-container {
+    height: 52em;
+    .logo {
+      height: 17em;
+      width: 17em;
+      margin-bottom: 12em;
+    }
+  }
+  
+}
+
+@media screen and (width: 768px) {
+
+  .home-container {
+    height: 64em;
+    .logo {
+      height: 40em;
+      width: 40em;
+    }
+  }
+  
+}
+
+@media screen and (width: 1024px) {
+
+  .home-container {
+    height: 86em;
+    .logo {
+      height: 55em;
+      width: 55em;
+    }
+  }
+  
+}

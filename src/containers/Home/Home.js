@@ -1,5 +1,6 @@
 import React from 'react';
-import image from '../images/LogoB.png'
+import './Home.scss'
+import image from '../../images/LogoB.png'
 
 //displays logo at top of page
 

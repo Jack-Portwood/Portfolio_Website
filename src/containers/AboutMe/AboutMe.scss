@@ -1,0 +1,142 @@
+@import '../../index.scss';
+
+.parallax-container {
+  display: flex;
+  height: 61em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  // border: red 1px solid;
+}
+
+.aboutMe-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 59em;
+  width: 100vw;
+  perspective: 250px;
+  // border: brown 1px solid;
+}
+
+.card {
+  display: flex;
+  position: absolute;
+  width: 20em;
+  height: 10em;
+  transform-style: preserve-3d;
+  transition: transform 1s ease-in-out;
+  // border: brown 1px solid;
+}
+.card:hover {
+  transform: rotateX(180deg);
+}
+.card-front {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  background: $mainTeal;
+  color: $mainYellow;
+  border-radius: 25px;
+  box-shadow: 1px 2px 10px $mainGrey;
+  font-weight: bold;
+}
+.text-front-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20em;
+  font-size: 2rem;
+  //   border: red 1px solid;
+}
+
+.card-back {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  background: $mainWhite;
+  color: $mainTeal;
+  border-radius: 25px;
+  transform: rotateX(180deg);
+  box-shadow: 1px 2px 10px $mainGrey;
+}
+.text-back-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20em;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  // border: red 1px solid;
+}
+
+@media screen and (max-width: 600px) {
+
+  .parallax-container {
+    margin-top: 2em;
+    height: 52em;
+    margin-bottom: 2em;
+  }
+  .card {
+    width: 12em;
+    height: 6em;
+    margin-bottom: 21em;
+  }
+
+  .text-front-card {
+    font-size: 1rem;
+  }
+
+  .text-back-card {
+    font-size: 0.7rem;
+  }
+  
+}
+
+@media screen and (width: 768px) {
+  .parallax-container {
+    height: 64em;
+  }
+
+  .card {
+    //   width: 20em;
+    //   height: 10em;
+    margin-bottom: 10em;
+  }
+
+  .text-front-card {
+    font-size: 1.5rem;
+  }
+
+  .text-back-card {
+    font-size: 1rem;
+  }
+  
+}
+
+@media screen and (width: 1024px) {
+
+   .parallax-container {
+    height: 86em;
+  }
+
+  .card {
+    width: 32em;
+    height: 16em;
+    margin-top: 12em;
+  }
+  .text-front-card {
+    font-size: 3em;
+  }
+
+  .text-back-card {
+    font-size: 2em;
+  }
+  
+}

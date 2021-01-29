@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import projectData from "../projectData";
-import Projects from "../components/Projects";
+import './Portfolio.scss';
+import projectData from "../../projectData";
+import Projects from "../../components/Projects/Projects.js";
 import { Parallax } from "react-parallax";
-import image from "../images/banner2.jpg";
+import image from "../../images/banner2.jpg";
 
 const Portfolio = () => {
   //This will container each indivdual project like a list

@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+import "./NavBar.scss";
 import { HashLink } from "react-router-hash-link";
 
 const NavBar = () => {

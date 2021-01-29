@@ -1,4 +1,4 @@
-@import '../../index.scss';
+@import "../../index.scss";
 
 .footer-container {
   display: flex;
@@ -38,4 +38,30 @@
   width: 14em;
   height: 14em;
   // border: 1px blue solid;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-container {
+    height: 7em;
+    margin-top: 2em;
+    font-size: 0.5em;
+  }
+  .logoB {
+    width: 14em;
+    height: 14em;
+  }
+}
+
+@media screen and (width: 768px) {
+   .footer-container {
+    height: 20em;
+    font-size: 1em;
+  }
+}
+
+@media screen and (width: 1024px) {
+  .footer-container {
+    height: 40em;
+    font-size: 1em;
+  }
 }

@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import NavBar from "../components/NavBar";
-import Home from "./Home";
-import AboutMe from "./AboutMe";
-import Portfolio from "./Portfolio";
+import NavBar from "../components/NavBar/NavBar.js";
+import Home from "./Home/Home.js";
+import AboutMe from "./AboutMe/AboutMe";
+import Portfolio from "./Portfolio/Portfolio.js";
 import Footer from "../components/Footer/Footer.js";
 
 const MainContainer = () => {

@@ -1,6 +1,7 @@
 import React from "react";
+import './AboutMe.scss';
 import { Parallax } from "react-parallax";
-import image from "../images/banner.jpg";
+import image from "../../images/banner.jpg";
 
 const AboutMe = () => {
   //this will contain a styled card containing text
